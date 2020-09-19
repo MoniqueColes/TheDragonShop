@@ -1,0 +1,188 @@
+body{
+    font-size: 80%;
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+    background: #555a56 url(img/wallpaper\ sei-kakinoki.jpg) no-repeat fixed top center;
+         padding: 0;
+         margin: 0;
+         -webkit-background-size: 100% 100%;
+         -moz-background-size: 100% 100%;
+         background-size: 100% 100%;
+         -o-background-size: 100% 100%;
+    }
+    h1{
+        color: #0b1811;
+        font-size: 2.50em;
+        text-align: center;
+        margin: 0.5em 0 0.5em 0;
+    }
+    h2{
+        color: #1d1c1b;
+        font-size: 1.7em;
+        padding: 0px;
+        margin: 0.5em 0 0.35em 0;
+    }
+    p{
+        font-size: 20px;
+        line-height: 1.4em;
+        color: black;
+        margin: 0px 4px 0px 0px;
+    }
+    ul{
+        font-size: 1.2em;
+        margin: 0 0 0 1.0em;
+        padding: 0 0 0 1.0em;
+    }
+    ul li{
+        text-align: left;
+        font-size: 15px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0 0 0.2em;
+    }
+    a:visited{
+        color: #0c0b0b;
+    }
+    a:hover{
+        color: rgb(187, 186, 181);
+    }
+    hr{
+        padding: 0;
+        margin: 1.5em 1.5em 0.75em 0.5em;
+    }
+    .Wrapper{
+        margin: 0 auto;
+        max-width: 1170px;
+        padding: 0 3.0em;
+    }
+    .left{
+        float: left;
+    }
+    .right{
+        float: right;
+    }
+    div.clear{ 
+        clear:both;
+        font-size: 1%;
+    }
+    header{
+        padding: 1em 0 0.5em;
+        margin: 0 0 2.0em;
+        background: #39150C center 0px;
+    }
+    header h1{
+        font-family: "Times New Roman", Times, serif;
+        text-align: left;
+        color: #31312d;
+        font-size: 7em;
+        letter-spacing: -0.025em;
+        margin: 0; 
+        padding-bottom: 0.5em;   
+        text-shadow: 1px 2px 0 #ce8628; 
+    }
+    #covid{
+        color: red;
+    }
+    nav{
+        color: #000;
+        font-size: 1.7em;
+        letter-spacing: 0.04em;
+        margin: 1.0em 0;
+    }
+    nav ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    nav li{
+        display: inline-block;
+        margin: 0;
+    }
+    nav li a, nav li a:visited {
+        text-decoration: none;
+        color: #ce8628;
+        padding: 0.3em 0.6em;
+    }
+    nav#utilityMenu{
+        float: center;
+        margin: -0.5em;
+        padding: 0.35em;
+        padding-bottom: 25px;
+        background-color: rgba(70, 73, 70, 0.8);
+        height: 2em;
+    }
+    nav#utilityMenu{
+        float: center;
+        margin: -0.5em;
+        padding: 0em;
+        padding-bottom: 20px;
+        background-color: rgba(70, 73, 70, 0.8);
+        height: 2em;
+    }
+    nav#utilityMenu li{
+        vertical-align: middle;   
+        font-size: large;  
+    }
+        section#sidebar{
+        text-align: center;
+        width: 240px;
+        display: block;
+        float: right;
+        position: relative;
+        border: black solid 4px;
+        border-radius: 0.6em;
+        color: black;
+        font-weight: bold;
+        background-color: rgb(83, 83, 70);
+        padding: 1.7em 0.5em 2.0em 1.7em;
+       }
+    section#main{
+        background-color: rgba(252,251,243,0.7)
+        display: inline-block;
+        border-radius: 2em;
+       }
+    section div.panel{
+        float: left;
+        position: relative;
+        width: 250px;
+        margin: 0 0.5em 2.0em 0.5em;
+        padding: 1.0em;
+        background-color: rgb(83, 83, 70);
+        border: black solid 4px;
+        border-radius: 0.6em;
+       }
+    section div.panel img.DragonType{
+        width: 100%;
+    }
+    footer{
+        background-color: #424241;
+        height: 25px;
+        font-size: 1.2em;
+        color: #fff;
+        text-align: center;
+        padding: 1.5em 2.0em;
+    }
+    footer ul#menuFooter{
+        display: inline-block;
+        list-style: none;
+        margin: 0 0 0 0.6em;
+        padding: 0;
+    }
+    footer ul li{
+        display: inline-block;
+        padding: 0 0.7em 0 0;
+        margin: 0;
+    }
+    footer ul li::before{
+        content: "| ";
+        padding-right: 0.6em;
+    }
+    footer a, footer a:visited{
+        color: #fff;
+        text-decoration: none;
+    }
+    footer a:hover{
+        color: #fff;
+        text-decoration: underline;
+    }
+    
